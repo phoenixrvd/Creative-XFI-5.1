@@ -30,7 +30,9 @@ fi
 
 #+++++++++++++++++++++++
 
-sudo apt-get install lirc lirc-x xdotool xmacro
+sudo apt-get install irexec
+sudo apt-get install xmacro
+sudo apt-get install lirc lirc-x xdotool
 
 #+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#
 # Set system username in configs#
@@ -66,6 +68,7 @@ sudo chmod +x ~/skriptai/creative/remote/volume-switch
 # Remote control libraries#
 #+#+#+#+#+#+#+#+#+#+#+#+#+#
 cp files/.lircrc ~/.lircrc
+cp -R -v files/.lirc ~/.lirc
 sudo cp files/lircd.conf.creative_RM-820 /usr/share/lirc/remotes/creative/lircd.conf.creative_RM-820
 sudo cp files/lircd.conf /etc/lirc/lircd.conf
 #sudo cp files/hardware.conf /etc/lirc/hardware.conf

@@ -7,9 +7,8 @@ The following packages will be installed:
 	lirc
 	lirc-x
 	xdotool
-The following packages are expected to be preinstalled in your system and will not be installed by script:
 	irexec
-	irxevent
+	xmacro
 
 WARNING!
 Backup your existing ~/.lircrc, /etc/lirc/lircd.conf and /etc/lirc/hardware.conf files since they will be either overwritten or modified!!!
