@@ -61,8 +61,6 @@ sudo cp files/100-creative-SB-xFi-51.rules /etc/udev/rules.d/
 
 cp files/audio ~/skriptai/creative/remote/audio
 sudo chmod +x ~/skriptai/creative/remote/audio
-cp files/volume-switch ~/skriptai/creative/remote/volume-switch
-sudo chmod +x ~/skriptai/creative/remote/volume-switch
 
 #+#+#+#+#+#+#+#+#+#+#+#+#+#
 # Remote control libraries#
