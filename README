@@ -1,4 +1,4 @@
-This repo contains a few scripts and libs to make Creative X-FI 5.1 USB sound card work properly on ubuntu (including remote control RM-820).
+This repo contains a few scripts and libs to make Creative X-FI 5.1 USB sound card work properly on ubuntu (including remote control RM-820 with media keys support).
 
 To install it simply run the "install.sh" script FROM TERMINAL(!!!). A few configuration files will be either modified or overwritten, some of them will be created. The script will create the following path:
 	~/skriptai/creative/remote
