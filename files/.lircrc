@@ -50,7 +50,7 @@ end
 begin
  prog = irexec
  remote = RM-820
- button = menu-back
+ button = menu/back
  repeat = 1
  config = banshee --show &
 end
@@ -58,7 +58,7 @@ end
 begin
  prog = irexec
  remote = RM-820
- button = menu-back-long
+ button = menu/back-long
  repeat = 1
  config = banshee --hide &
 end
