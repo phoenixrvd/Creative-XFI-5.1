@@ -30,7 +30,7 @@ fi
 
 #+++++++++++++++++++++++
 
-sudo apt-get install lirc lirc-x xdotool
+sudo apt-get install lirc lirc-x xdotool xmacro
 
 #+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#+#
 # Set system username in configs#
