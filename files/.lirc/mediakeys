@@ -1,0 +1,75 @@
+begin
+ prog = irexec
+ remote = RM-820
+ button = voldn
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress XF86AudioLowerVolume KeyStrRelease XF86AudioLowerVolume | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobvoldn
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress XF86AudioLowerVolume KeyStrRelease XF86AudioLowerVolume | xmacroplay $DISPLAY 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = mute
+ repeat = 1
+ config = echo KeyStrPress XF86AudioMute KeyStrRelease XF86AudioMute | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobMute
+ repeat = 1
+ config = echo KeyStrPress XF86AudioMute KeyStrRelease XF86AudioMute | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = volup
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress XF86AudioRaiseVolume KeyStrRelease XF86AudioRaiseVolume | xmacroplay $DISPLAY 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobvolup
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress XF86AudioRaiseVolume KeyStrRelease XF86AudioRaiseVolume | xmacroplay $DISPLAY 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = play-pause
+ repeat = 1
+ config = echo KeyStrPress XF86AudioPlay KeyStrRelease XF86AudioPlay | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = ff
+ repeat = 1
+ config = echo KeyStrPress XF86AudioNext KeyStrRelease XF86AudioNext | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = bb
+ repeat = 1
+ config = echo KeyStrPress XF86AudioPrev KeyStrRelease XF86AudioPrev | xmacroplay $DISPLAY
+end
