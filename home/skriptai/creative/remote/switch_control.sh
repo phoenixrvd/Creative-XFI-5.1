@@ -39,6 +39,7 @@ test -f "$CONTROL_PATH/$NEXT_CONTROL.png" && ICON="$NEXT_CONTROL.png"
 
 echo $NEXT_CONTROL
 echo $NEXT_CONTROL > $CONTROL_PATH/../loadet_control
+killall notify-osd
 notify-send -t 2000 -i "$CONTROL_PATH/$ICON" "$TITLE" "$DESC"
 
 killall irexec
