@@ -1,2 +1,1 @@
-include ~/.lirc/default
-
+include ~/skriptai/creative/remote/lircrc

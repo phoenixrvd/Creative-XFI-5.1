@@ -40,7 +40,7 @@ sudo apt-get install lirc lirc-x xdotool
 USERNAME=`whoami`
 echo $USERNAME
 
-for i in `ls files/`
+for i in `ls -B files/`
 do
 	sed -i "s/my_username/${USERNAME}/g" files/$i
 done
@@ -52,6 +52,7 @@ done
 mkdir ~/skriptai
 mkdir ~/skriptai/creative
 mkdir ~/skriptai/creative/remote
+mkdir ~/skriptai/creative/controls
 
 
 # The following 3 lines are responsible for triggering particular events after soundcard is plugged
@@ -61,6 +62,13 @@ sudo cp files/100-creative-SB-xFi-51.rules /etc/udev/rules.d/
 
 cp files/audio ~/skriptai/creative/remote/audio
 sudo chmod +x ~/skriptai/creative/remote/audio
+
+cp -R files/controls ~/skriptai/creative/remote/controls
+
+cp def_lircrc ~/skriptai/creative/remote/
+cp loadet_control ~/skriptai/creative/remote/
+cp switch_control.sh ~/skriptai/creative/remote/
+chmod +x ~/skriptai/creative/remote/switch_control.sh
 
 #+#+#+#+#+#+#+#+#+#+#+#+#+#
 # Remote control libraries#

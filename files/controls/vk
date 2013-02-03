@@ -1,0 +1,134 @@
+#========================Global===============
+begin
+ prog = irexec
+ remote = RM-820
+ button = power
+ repeat = 1
+ config =  gnome-session-quit --power-off
+end
+
+#========================Volume===============
+begin
+ prog = irexec
+ remote = RM-820
+ button = voldn
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress XF86AudioLowerVolume KeyStrRelease XF86AudioLowerVolume | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobvoldn
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress XF86AudioLowerVolume KeyStrRelease XF86AudioLowerVolume | xmacroplay $DISPLAY 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = mute
+ repeat = 1
+ config = echo KeyStrPress XF86AudioMute KeyStrRelease XF86AudioMute | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobMute
+ repeat = 1
+ config = echo KeyStrPress XF86AudioMute KeyStrRelease XF86AudioMute | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = volup
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress XF86AudioRaiseVolume KeyStrRelease XF86AudioRaiseVolume | xmacroplay $DISPLAY 
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobvolup
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress XF86AudioRaiseVolume KeyStrRelease XF86AudioRaiseVolume | xmacroplay $DISPLAY 
+end
+
+
+#========================Player===============
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = ff
+ repeat = 1
+ config = echo KeyStrPress Control_L KeyStrPress Alt_L KeyStrPress Shift_L  KeyStrPress d KeyStrRelease d KeyStrRelease Control_L KeyStrRelease Alt_L KeyStrRelease Shift_L | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = bb
+ repeat = 1
+ config = echo KeyStrPress Control_L KeyStrPress Alt_L KeyStrPress Shift_L  KeyStrPress a KeyStrRelease a KeyStrRelease Control_L KeyStrRelease Alt_L KeyStrRelease Shift_L | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = play-pause
+ repeat = 1
+ config = echo KeyStrPress space KeyStrRelease space | xmacroplay $DISPLAY
+end
+
+#======================Cursor=================
+begin
+ prog = irexec
+ remote = RM-820
+ button = up
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress Up KeyStrRelease Up | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = down
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress Down KeyStrRelease Down | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = left
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress Left KeyStrRelease Left | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = right
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress Right KeyStrRelease Right | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = ok
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress Return KeyStrRelease Return | xmacroplay $DISPLAY
+end

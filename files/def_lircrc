@@ -1,0 +1,8 @@
+begin
+ prog = irexec
+ remote = RM-820
+ button = menu/back-long
+ repeat = 1
+ config = /bin/bash ~/skriptai/creative/remote/switch_control.sh
+end
+
