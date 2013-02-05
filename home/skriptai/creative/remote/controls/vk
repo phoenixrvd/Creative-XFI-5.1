@@ -84,7 +84,25 @@ begin
  remote = RM-820
  button = play-pause
  repeat = 1
- config = echo KeyStrPress space KeyStrRelease space | xmacroplay $DISPLAY
+ config = echo KeyStrPress Control_L KeyStrPress Alt_L KeyStrPress Shift_L  KeyStrPress s KeyStrRelease s KeyStrRelease Control_L KeyStrRelease Alt_L KeyStrRelease Shift_L | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = repeat
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress Control_L KeyStrPress Alt_L KeyStrPress Shift_L  KeyStrPress f KeyStrRelease f KeyStrRelease Control_L KeyStrRelease Alt_L KeyStrRelease Shift_L | xmacroplay $DISPLAY
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = shuffle
+ repeat = 1
+ delay = 2
+ config = echo KeyStrPress Control_L KeyStrPress Alt_L KeyStrPress Shift_L  KeyStrPress g KeyStrRelease g KeyStrRelease Control_L KeyStrRelease Alt_L KeyStrRelease Shift_L | xmacroplay $DISPLAY
 end
 
 #======================Cursor=================
@@ -130,5 +148,5 @@ begin
  button = ok
  repeat = 1
  delay = 2
- config = echo KeyStrPress Return KeyStrRelease Return | xmacroplay $DISPLAY
+ config = echo KeyStrPress space KeyStrRelease space | xmacroplay $DISPLAY
 end
