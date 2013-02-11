@@ -1,2 +1,2 @@
-TITLE="XF86Audio"
-DESC="IR-Control setup to XF86Audio-Mode"
+TITLE=$"XF86Audio"
+DESC=$"IR-Control setup to XF86Audio-Mode"

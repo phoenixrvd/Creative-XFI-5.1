@@ -1,0 +1,161 @@
+#========================Global===============
+begin
+ prog = irexec
+ remote = RM-820
+ button = power
+ repeat = 1
+ config =  ""
+end
+
+#========================Volume===============
+begin
+ prog = irexec
+ remote = RM-820
+ button = voldn
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobvoldn
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = mute
+ repeat = 1
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobMute
+ repeat = 1
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = volup
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = knobvolup
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+#========================Player===============
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = play-pause
+ repeat = 1
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = ff
+ repeat = 1
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = bb
+ repeat = 1
+ config = ""
+end
+
+#======================Menu===================
+begin
+ prog = irexec
+ remote = RM-820
+ button = shuffle
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = return
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = repeat
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+#======================Cursor=================
+begin
+ prog = irexec
+ remote = RM-820
+ button = up
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = down
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = left
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = right
+ repeat = 1
+ delay = 2
+ config = ""
+end
+
+begin
+ prog = irexec
+ remote = RM-820
+ button = ok
+ repeat = 1
+ delay = 2
+ config = ""
+end
