@@ -147,6 +147,7 @@
 <four>XBMC.PlayerControl(Repeat)</four>
 <five>XBMC.PlayerControl(Random)</five>
 <six>ContextMenu</six>
+<seven>togglefullscreen</seven>
 </remote>
 
   </global>
