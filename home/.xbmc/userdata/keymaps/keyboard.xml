@@ -143,12 +143,13 @@
       <a mod="ctrl,shift">Notification(MCEKeypress, DVD audio, 3)</a>
     </keyboard>
 
-<remote>
-<four>XBMC.PlayerControl(Repeat)</four>
-<five>XBMC.PlayerControl(Random)</five>
-<six>ContextMenu</six>
-<seven>togglefullscreen</seven>
-</remote>
+    <remote>
+      <four>XBMC.PlayerControl(Repeat)</four>
+      <five>XBMC.PlayerControl(Random)</five>
+      <six>ContextMenu</six>
+      <seven>togglefullscreen</seven>
+      <eight>FirstPage</eight>
+    </remote>
 
   </global>
   <LoginScreen>
@@ -161,6 +162,9 @@
       <i>info</i>
       <end>XBMC.ShutDown()</end>
     </keyboard>
+    <remote>
+      <back>XBMC.ActivateWindow(shutdownmenu)</back>
+    </remote>
   </Home>
   <VirtualKeyboard>
     <keyboard>
@@ -276,6 +280,11 @@
       <l>LockPreset</l>
       <escape>FullScreen</escape>
     </keyboard>
+    <remote>
+      <six>ActivateWindow(MusicPlaylist)</six>
+      <back>ActivateWindow(MusicOSD)</back>
+      <seven>FullScreen</seven>
+    </remote>
   </Visualisation>
   <MusicOSD>
     <keyboard>
