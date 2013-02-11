@@ -11,5 +11,11 @@ The following packages will be installed:
 	xmacro
 
 WARNING!
-Backup your existing ~/.lircrc, /etc/lirc/lircd.conf and /etc/lirc/hardware.conf files since they will be either overwritten or modified!!!
+Backup your existing 
+	~/.lircrc
+	/etc/lirc/lircd.conf
+	/etc/lirc/hardware.conf 
+	~/.xbmc/userdata/keymaps/keyboard.xml
+	~/.xbmc/userdata/Lircmap.xml
+files since they will be either overwritten or modified!!!
 Everytime the soundcard is connected, pulseaudio server will be restarted so video/audio playbacks may need a restart as well.
