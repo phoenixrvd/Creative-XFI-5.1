@@ -12,11 +12,11 @@ if sudo -u phoenixrvd pacmd list-cards | grep -q output:analog-surround-51+input
 	then 
 		echo; 
 	else 	
-		sudo -u phoenixrvd killall irexec & wait
-		sudo -u phoenixrvd killall irxevent & wait
-		sudo -u phoenixrvd notify-send "Garso serveris paleidžiamas iš naujo" 
-		sudo -u phoenixrvd pulseaudio --kill 
-		sudo -u phoenixrvd irexec -d
-		sudo -u phoenixrvd irxevent -d;
+		sudo -u my_user killall irexec & wait
+		sudo -u my_user killall irxevent & wait
+		sudo -u my_user notify-send "Garso serveris paleidžiamas iš naujo" 
+		sudo -u my_user pulseaudio --kill 
+		sudo -u my_user irexec -d
+		sudo -u my_user irxevent -d;
 fi
 exit

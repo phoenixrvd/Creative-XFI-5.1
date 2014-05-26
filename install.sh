@@ -40,7 +40,8 @@ sudo apt-get install lirc lirc-x xdotool
 USERNAME=`whoami`
 echo $USERNAME
 
-sed -i "s/phoenixrvd/${USERNAME}/g" home/skriptai/creative/remote/activate.sh
+sed -i "s/my_user/${USERNAME}/g" home/skriptai/creative/remote/activate.sh
+sed -i "s/my_user/${USERNAME}/g" files/100-creative-SB-xFi-51.rules
 
 # The following 3 lines are responsible for triggering particular events after soundcard is plugged
 sudo cp files/100-creative-SB-xFi-51.rules /etc/udev/rules.d/
